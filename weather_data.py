@@ -9,7 +9,7 @@ class WeatherData:
         self.humidity = humidity
 
     def __str__(self):
-        return (f"--- Ilm linnas: {self.city} ---\n"
+        return (f"--- Ilm: {self.city} ---\n"
                 f"Temperatuur: {self.temp}°C\n"
                 f"Kirjeldus: {self.description.capitalize()}\n"
                 f"Õhuniiskus: {self.humidity}%")
